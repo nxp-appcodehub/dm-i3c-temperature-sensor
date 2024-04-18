@@ -1,0 +1,53 @@
+NXP Software Content Register
+
+Package: dm-i3c-temperature-sensor
+Version: 1.0
+Outgoing License: BSD-3-Clause
+License File: LICENSE.txt
+Description: This example code demonstrates MIPI I3C bus operation with P3T1755 temperature sensor and MCX microcontroller.
+Release location: https://github.com/nxp-appcodehub/dm-i3c-temperature-sensor
+Origin: NXP (BSD-3-Clause)
+        CMSIS (Apache-2.0)    - https://github.com/ARM-software/CMSIS_5/releases/tag/5.8.0
+        OlsonTZData (MIT)     - https://github.com/gitpan/Time-OlsonTZ-Data
+        Tedd OKANO (MIT)      - https://github.com/teddokano/r01lib_MCUXpresso
+
+dm-i3c-temperature-sensor  Name: dm-i3c-temperature-sensor
+                           Version: 1.0
+                           Outgoing License: Open Source - BSD-3 (https://spdx.org/licenses/BSD-3-Clause.html)
+                           Format: source code
+                           Description: This example code demonstrates MIPI I3C bus operation with P3T1755 temperature sensor and MCX microcontroller.
+
+MCUXpresso SDK             Name: MCUXpresso SDK
+                           Version: 2.x
+                           Outgoing License: Open Source - BSD-3 (https://spdx.org/licenses/BSD-3-Clause.html)
+                           Format: source code
+                           Description: NXP's MCUXpresso SDK is a comprehensive software enablement package designed to simplify
+						   and accelerate application development with NXP’s microcontrollers and crossover processors based on
+						   Arm® Cortex®-M cores. Component lib integration examples use MCUXpresso SDK to demonstrate usage.
+
+CMSIS                      Name: CMSIS
+                           Version: 5.6.0
+                           Outgoing License: Apache License 2.0
+                           Format: source code
+                           Description: Vendor-independent hardware abstraction layer for microcontrollers that are based on
+						   Arm® Cortex® processors, distributed by ARM® cores.
+						   Origin: https://github.com/ARM-software/CMSIS_5/releases/tag/5.6.0
+
+OlsonTZData                Name: OlsonTZData
+                           Description: This module encapsulates the Olson timezone database.
+                           Outgoing License: MIT License (https://spdx.org/licenses/MIT.html)
+                           Format: Source code
+                           Origin: https://github.com/gitpan/Time-OlsonTZ-Data
+
+NetBSD                     Name: NetBSD
+                           Description: This module encapsulates the Olson timezone database.
+                           Outgoing License: MIT License (https://spdx.org/licenses/MIT.html)
+                           Format: Source code
+                           Origin: https://github.com/gitpan/Time-OlsonTZ-Data
+
+r01lib                     Name: r01lib
+                           Version: 0.29.1
+                           Outgoing License: MIT License (https://spdx.org/licenses/MIT.html)
+                           Format: Source code
+                           Description: MCU and device abstraction layer for MCXA153 and MCXN947.
+                           Origin: https://github.com/teddokano/r01lib_MCUXpresso

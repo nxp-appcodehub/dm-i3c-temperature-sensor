@@ -1,0 +1,24 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/alp.xsd" id="dm-i3c-temperature-sensor" type="demo" format="projectfile" versionSchema="1.0.0" name="I3C temperature sensor">
+    <display_title>
+        P3T1755: I3C temperature sensor demo
+    </display_title>
+    <overview>
+        <![CDATA[Demonstrates MIPI I3C bus operation with P3T1755 temperature sensor and MCX microcontroller.  <br />]]>
+    </overview>
+    <toolchains>
+        <toolchain name="mcux"></toolchain>
+    </toolchains>
+    <families>
+        <family name="mcx"></family>
+    </families>
+    <nxp_compatible_hw>
+        <hw id="FRDM-MCXN947"></hw>
+        <hw id="FRDM-MCXA153"></hw>
+    </nxp_compatible_hw>
+    <peripherals>
+        <peripheral name="i3c"></peripheral>
+    </peripherals>
+    <categories>
+        <category name="sensor"></category>
+    </categories>
+</data:item>
